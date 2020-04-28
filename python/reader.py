@@ -46,7 +46,6 @@ class MyReader(bvh.BVHReader) :
 
         if self.frame == self.frames:
             self.channels = array(self.channels)
-            print shape(self.channels)
             for row in range(1,len(self.channels)):
                 for col in range(3,len(self.channels[0])):
 
